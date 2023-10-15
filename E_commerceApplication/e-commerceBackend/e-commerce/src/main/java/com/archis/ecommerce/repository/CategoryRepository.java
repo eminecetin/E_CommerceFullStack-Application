@@ -1,0 +1,7 @@
+package com.archis.ecommerce.repository;
+
+import com.archis.ecommerce.model.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+}
